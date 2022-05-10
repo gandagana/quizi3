@@ -18,7 +18,7 @@ print(r_img)
 img = r_img.content
 with open('nasa.jpg', 'wb') as file:
     file.write(img)
-#ბაზა
+#ბაზა errorს მიგდებს :(
 # conn = sqlite3.connect('nasa.sqlite3')
 # c = conn.cursor()
 # c.execute("CREATE TABLE IF NOT EXISTS NASA(id INTEGER PRIMARY KEY AUTOINCREMENT ,name TEXT, date TEXT)")
